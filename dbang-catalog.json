@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "image2base64": {
+      "script-ref": "src/image2base64.ts",
+      "description": "image uto base64",
+      "permissions": ["allow-net", "allow-run"]
+    }
+  }
+}

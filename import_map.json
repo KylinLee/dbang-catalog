@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "clipboard": "https://deno.land/x/copy_paste/mod.ts"
+  }
+}
