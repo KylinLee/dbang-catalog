@@ -5,6 +5,10 @@ const [link] = args;
 let ext = "png";
 const IMAGE_TYPE_REG = /image\/(j?p[en]?g)/i;
 
+if (!args.length) {
+	throw new Error("image link not found");
+}
+
 const imageBuffer = await fetch(link)
 	.then((res) => {
 		if (res.status === 200) {
